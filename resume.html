@@ -1,156 +1,162 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Personal - Mymelody Theme</title>
-        <!-- Favicon-->
+        <meta name="description" content="조성환의 경력 사항" />
+        <title>경력 | 조성환 포트폴리오</title>
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Custom Google font-->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
-        <!-- Bootstrap icons-->
+        <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&amp;family=DM+Sans:wght@400;500;600;700&amp;family=Noto+Sans+KR:wght@400;500;700&amp;display=swap" rel="stylesheet" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/custom.css" rel="stylesheet" />
     </head>
-    <body class="d-flex flex-column h-100 bg-light">
-        <main class="flex-shrink-0">
-            <!-- Navigation-->
-            <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
-                <div class="container px-5">
-                    <a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary">Mymelody House</span></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
-                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="resume.html">토끼의역사</a></li>
-                            <li class="nav-item"><a class="nav-link" href="projects.html">프로젝트</a></li>
-                            <li class="nav-item"><a class="nav-link" href="contact.html">어디서볼수있나요?</a></li>
+    <body class="pf d-flex flex-column">
+        <header class="pf-header">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="pf-container d-flex flex-wrap align-items-center justify-content-between w-100">
+                    <a class="pf-brand" href="index.html">
+                        <span class="pf-logo" aria-hidden="true">S</span>
+                        <span>
+                            <span class="pf-brand__name">Seonghwan Jo</span>
+                            <span class="pf-brand__sub">Developer Portfolio</span>
+                        </span>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#pfNav" aria-controls="pfNav" aria-expanded="false" aria-label="메뉴 열기"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse justify-content-lg-end" id="pfNav">
+                        <ul class="navbar-nav pf-nav mt-3 mt-lg-0">
+                            <li class="nav-item"><a class="nav-link" href="index.html">홈</a></li>
+                            <li class="nav-item"><a class="nav-link active" aria-current="page" href="resume.html">경력</a></li>
+                            <li class="nav-item"><!-- 임시 비활성화: 복구하려면 href="projects.html" 을 되살리고 disabled 관련 속성을 지우세요 --><a class="nav-link disabled" aria-disabled="true" tabindex="-1" title="준비 중입니다">프로젝트</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contact.html">연락처</a></li>
                         </ul>
                     </div>
                 </div>
             </nav>
-            <!-- Page Content-->
-            <div class="container px-5 my-5">
-                <div class="text-center mb-5">
-                    <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">토끼의역사</span></h1>
-                </div>
-                <div class="row gx-5 justify-content-center">
-                    <div class="col-lg-11 col-xl-9 col-xxl-8">
-                        <!-- Experience Section-->
-                        <section>
-                            <div class="d-flex align-items-center justify-content-between mb-4">
-                                <h2 class="text-primary fw-bolder mb-0">토끼의 삶<h2>
-                                <!-- Download resume button-->
-                                <!-- Note: Set the link href target to a PDF file within your project-->
-                                <a class="btn btn-primary px-4 py-3" href="#!">
-                                    <div class="d-inline-block bi bi-download me-2"></div>
-                                    토끼 생애주기 다운로드하기
-                                </a>
-                            </div>
-                            <!-- Experience Card 1-->
-                            <div class="card shadow border-0 rounded-4 mb-5">
-                                <div class="card-body p-5">
-                                    <div class="row align-items-center gx-5">
-                                        <div class="col text-center text-lg-start mb-4 mb-lg-0">
-                                            <div class="bg-light p-4 rounded-4">
-                                                <div class="text-primary fw-bolder mb-2">2026 - 현재</div>
-                                                <div class="small fw-bolder">토끼</div>
-                                                <div class="small text-muted">성체</div>
-                                                <div class="small text-muted">서울숲거주</div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-8"><div>한마리의 당당한 성체 토끼로 숲에 조성된 사육지에서 살아가고있습니다.</div></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Experience Card 2-->
-                            <div class="card shadow border-0 rounded-4 mb-5">
-                                <div class="card-body p-5">
-                                    <div class="row align-items-center gx-5">
-                                        <div class="col text-center text-lg-start mb-4 mb-lg-0">
-                                            <div class="bg-light p-4 rounded-4">
-                                                <div class="text-primary fw-bolder mb-2">2025</div>
-                                                <div class="small fw-bolder">아기 토끼</div>
-                                                <div class="small text-muted">자라나는 중</div>
-                                                <div class="small text-muted">엄마 토끼 품안</div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-8"><div>아늑한 엄마토끼 품안에서 다른 12마리의 아기토끼들과 함께 태어났습니다. </div></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                        <!-- Education Section-->
-                        <section>
-                            <h2 class="text-secondary fw-bolder mb-4">교육</h2>
-                            <!-- Education Card 1-->
-                            <div class="card shadow border-0 rounded-4 mb-5">
-                                <div class="card-body p-5">
-                                    <div class="row align-items-center gx-5">
-                                        <div class="col text-center text-lg-start mb-4 mb-lg-0">
-                                            <div class="bg-light p-4 rounded-4">
-                                                <div class="text-secondary fw-bolder mb-2">2026 - 현재</div>
-                                                <div class="mb-2">
-                                                    <div class="small fw-bolder">귀여움박사학위</div>
-                                                    <div class="small text-muted">서울숲</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-8"><div>지나가던 행인이 너무 귀엽다고 박사 학위를 수여해 주었습니다.</div></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                        <!-- Divider-->
-                        <div class="pb-5"></div>
-                        <!-- Skills Section-->
-                        <section>
-                            <!-- Skillset Card-->
-                            <div class="card shadow border-0 rounded-4 mb-5">
-                                <div class="card-body p-5">
-                                    
-                                    <!-- Languages list-->
-                                    <div class="mb-0">
-                                        <div class="d-flex align-items-center mb-4">
-                                            <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3"><i class="bi bi-code-slash"></i></div>
-                                            <h3 class="fw-bolder mb-0"><span class="text-gradient d-inline">토끼가 할 수 없는 언어</span></h3>
-                                        </div>
-                                        <div class="row row-cols-1 row-cols-md-3 mb-4">
-                                            <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">HTML</div></div>
-                                            <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">CSS</div></div>
-                                            <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">JavaScript</div></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
+        </header>
+
+        <main class="pf-main flex-grow-1">
+            <div class="pf-container">
+                <p class="pf-eyebrow">Career</p>
+                <h1 class="pf-title">걸어온 길</h1>
+                <p class="pf-lead">회사별로 맡은 역할과 기간을 정리했습니다. 행을 누르면 자세한 내용이 열립니다.</p>
+
+                <!-- Toolbar: 검색 + 필터 -->
+                <div class="pf-toolbar">
+                    <div class="pf-search">
+                        <i class="bi bi-search" aria-hidden="true"></i>
+                        <input type="search" id="pfSearch" placeholder="회사, 직위, 업무로 검색" aria-label="경력 검색" />
+                    </div>
+                    <div class="pf-toggle" role="group" aria-label="고용 형태 필터">
+                        <button type="button" data-filter="all" aria-pressed="true">전체</button>
+                        <button type="button" data-filter="정규직" aria-pressed="false">정규직</button>
+                        <button type="button" data-filter="프리랜서" aria-pressed="false">프리랜서</button>
+                        <button type="button" data-filter="인턴" aria-pressed="false">인턴</button>
                     </div>
                 </div>
+
+                <!-- Career list -->
+                <div class="pf-list__head" aria-hidden="true">
+                    <span>회사명</span><span>기간</span><span>직위</span><span>담당업무</span><span>고용형태</span><span></span>
+                </div>
+                <ul class="pf-list" id="pfList">
+                    <li class="pf-row" data-item data-category="프리랜서">
+                        <button class="pf-row__main" type="button" data-bs-toggle="collapse" data-bs-target="#career1" aria-expanded="false" aria-controls="career1">
+                            <span class="pf-row__company">컴퓨터 일반 활용 및 AI기초 강의</span>
+                            <span class="pf-row__period">2025.11 ~ 2026.09 <small>(10개월)</small></span>
+                            <span class="pf-row__role">강사 및 보조강사</span>
+                            <span class="pf-row__tags"><span class="pf-pill pf-pill--tag">T 교육</span></span>
+                            <span class="pf-row__status"><span class="pf-badge pf-badge--lavender">프리랜서</span></span>
+                            <i class="bi bi-chevron-down pf-row__chev" aria-hidden="true"></i>
+                        </button>
+                        <div class="collapse" id="career1"><div class="pf-row__detail">
+                            <ul>
+                                <li>여성장애인력개발센터 OA 교육 및 기초AI 활용교육 보조</li>
+                                <li>여성자활센터 해봄 OA 교육 및 관련 자격증 교육진행</li>
+                            </ul>
+                        </div></div>
+                    </li>
+                    <li class="pf-row" data-item data-category="프리랜서">
+                        <button class="pf-row__main" type="button" data-bs-toggle="collapse" data-bs-target="#career2" aria-expanded="false" aria-controls="career2">
+                            <span class="pf-row__company">저축은행중앙회 디지털창구 시스템구축</span>
+                            <span class="pf-row__period">2022.07 ~ 2023.01 <small>(7개월)</small></span>
+                            <span class="pf-row__role">프론트엔드 개발자</span>
+                            <span class="pf-row__tags"><span class="pf-pill pf-pill--tag">D 개발</span></span>
+                            <span class="pf-row__status"><span class="pf-badge pf-badge--lavender">프리랜서</span></span>
+                            <i class="bi bi-chevron-down pf-row__chev" aria-hidden="true"></i>
+                        </button>
+                        <div class="collapse" id="career1"><div class="pf-row__detail">
+                            <ul>
+                                <li>C#을 사용하여 은행 디지털창구 클라이언트 프로그램 개발</li>
+                                <li>은행 수신, 여신, 고객 업무관련 전자서식 개발</li>
+                                <li>은행 현장지원 및 사용자 교육 프로그램 수행</li>
+                            </ul>
+                        </div></div>
+                    </li>
+                    <li class="pf-row" data-item data-category="프리랜서">
+                        <button class="pf-row__main" type="button" data-bs-toggle="collapse" data-bs-target="#career3" aria-expanded="false" aria-controls="career3">
+                            <span class="pf-row__company">신한은헹 The Next 화면전환</span>
+                            <span class="pf-row__period">2021.11 ~ 2022.07 <small>(8개월)</small></span>
+                            <span class="pf-row__role">주니어 개발자</span>
+                            <span class="pf-row__tags"><span class="pf-pill pf-pill--tag">D 개발</span></span>
+                            <span class="pf-row__status"><span class="pf-badge pf-badge--lavender">프리랜서</span></span>
+                            <i class="bi bi-chevron-down pf-row__chev" aria-hidden="true"></i>
+                        </button>
+                        <div class="collapse" id="career2"><div class="pf-row__detail">
+                            <ul>
+                                <li>물류업무팀</li>
+                                <li>webSquare를 사용하여 bpr물류업무 화면 및 공통화면 화면전환과 신규개발</li>
+                            </ul>
+                        </div></div>
+                    </li>
+                    <li class="pf-row" data-item data-category="프리랜서">
+                        <button class="pf-row__main" type="button" data-bs-toggle="collapse" data-bs-target="#career4" aria-expanded="false" aria-controls="career4">
+                            <span class="pf-row__company">농협 증권수탁 차세대프로젝트</span>
+                            <span class="pf-row__period">2022.01 ~ 2022.10 <small>(9개월)</small></span>
+                            <span class="pf-row__role">주니어 개발자</span>
+                            <span class="pf-row__tags"><span class="pf-pill pf-pill--tag">D 개발</span></span>
+                            <span class="pf-row__status"><span class="pf-badge pf-badge--lavender">프리랜서</span></span>
+                            <i class="bi bi-chevron-down pf-row__chev" aria-hidden="true"></i>
+                        </button>
+                        <div class="collapse" id="career3"><div class="pf-row__detail">
+                            <ul>
+                                <li>데이터 이행팀</li>
+                                <li>데이터 이행 배치 프로그램 개발</li>
+                                <li>프로프레임C를 사용하여 데이터 이행 시에 필요로하는 각종 서비스 개발 (로그확인, 이상값검색, 데이터삭제확인 등)</li>
+                            </ul>
+                        </div></div>
+                    </li>
+                    <li class="pf-row" data-item data-category="정규직">
+                        <button class="pf-row__main" type="button" data-bs-toggle="collapse" data-bs-target="#career5" aria-expanded="false" aria-controls="career5">
+                            <span class="pf-row__company">SID-IT</span>
+                            <span class="pf-row__period">2020.12 ~ 2022.01 <small>(13개월)</small></span>
+                            <span class="pf-row__role">주니어 개발자</span>
+                            <span class="pf-row__tags"><span class="pf-pill pf-pill--tag">D 개발</span></span>
+                            <span class="pf-row__status"><span class="pf-badge pf-badge--lime">정규직</span></span>
+                            <i class="bi bi-chevron-down pf-row__chev" aria-hidden="true"></i>
+                        </button>
+                        <div class="collapse" id="career4"><div class="pf-row__detail">
+                            <ul>
+                                <li>법무부 전자여행허가 시스템개발 시스템공통팀 : 각종 로그조회화면, IP관리서비스, 메뉴관리서비스 개발</li>
+                                <li>농협 증권수탁 차세대프로젝트 데이터이행팀 : 데이터이행 배치 프로그램 개발</li>
+                            </ul>
+                        </div></div>
+                    </li>
+                </ul>
+                <p class="pf-empty" id="pfEmpty" hidden>조건에 맞는 경력이 없습니다.</p>
             </div>
         </main>
-        <!-- Footer-->
-        <footer class="bg-white py-4 mt-auto">
-            <div class="container px-5">
-                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-                    <div class="col-auto"><div class="small m-0">Copyright &copy; Your Website 2023</div></div>
-                    <div class="col-auto">
-                        <a class="small" href="#!">Privacy</a>
-                        <span class="mx-1">&middot;</span>
-                        <a class="small" href="#!">Terms</a>
-                        <span class="mx-1">&middot;</span>
-                        <a class="small" href="#!">Contact</a>
-                    </div>
-                </div>
+
+        <footer class="pf-footer">
+            <div class="pf-container d-flex flex-wrap justify-content-between gap-2">
+                <span>&copy; 2026 Seonghwan Jo</span>
+                <span><a href="https://github.com/jamonggg2">GitHub</a> &middot; <a href="contact.html">Contact</a></span>
             </div>
         </footer>
-        <!-- Bootstrap core JS-->
+
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
     </body>
 </html>
